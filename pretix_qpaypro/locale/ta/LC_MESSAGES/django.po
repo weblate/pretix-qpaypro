@@ -8,183 +8,188 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-21 01:22+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-01-28 17:02+0000\n"
+"Last-Translator: தமிழ்நேரம் <anishprabu.t@gmail.com>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/pretix-qpaypro/"
+"pretix-qpaypro/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: pretix_qpaypro/__init__.py:10
 msgid "QPayPro payment integration for pretix"
-msgstr ""
+msgstr "Pretix க்கான Qpaypro கட்டண ஒருங்கிணைப்பு"
 
 #: pretix_qpaypro/__init__.py:12
 msgid "Integration for the QPayPro payment provider."
-msgstr ""
+msgstr "QPAYPRO கட்டண வழங்குநருக்கான ஒருங்கிணைப்பு."
 
 #: pretix_qpaypro/formfields/custom_validators.py:94
 msgid "The credit card number is invalid"
-msgstr ""
+msgstr "கடன் அட்டை எண் தவறானது"
 
 #: pretix_qpaypro/formfields/payment.py:16
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:9
 msgid "Card Type"
-msgstr ""
+msgstr "அட்டை வகை"
 
 #: pretix_qpaypro/formfields/payment.py:20
 msgid "Visa"
-msgstr ""
+msgstr "இசைவு"
 
 #: pretix_qpaypro/formfields/payment.py:21
 msgid "Mastercard"
-msgstr ""
+msgstr "மாச்டர்கார்டு"
 
 #: pretix_qpaypro/formfields/payment.py:28
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:13
 msgid "Credit Card Number"
-msgstr ""
+msgstr "கடன் அட்டை எண்"
 
 #: pretix_qpaypro/formfields/payment.py:38
 msgid "Expiration Month"
-msgstr ""
+msgstr "காலாவதி மாதம்"
 
 #: pretix_qpaypro/formfields/payment.py:47
 msgid "Expiration Year"
-msgstr ""
+msgstr "காலாவதி ஆண்டு"
 
 #: pretix_qpaypro/formfields/payment.py:51
 #, python-brace-format
 msgid "The full year should be provided, for example {0}."
-msgstr ""
+msgstr "முழு ஆண்டு வழங்கப்பட வேண்டும், எடுத்துக்காட்டாக {0}."
 
 #: pretix_qpaypro/formfields/payment.py:57
 msgid "CVV2"
-msgstr ""
+msgstr "சி.வி.வி 2"
 
 #: pretix_qpaypro/formfields/payment.py:61
 msgid "3 or 4 digits code usually found in the back of the card."
-msgstr ""
+msgstr "அட்டையின் பின்புறத்தில் பொதுவாகக் காணப்படும் 3 அல்லது 4 இலக்க குறியீடு."
 
 #: pretix_qpaypro/formfields/payment.py:67
 msgid "Cardholder's First Name"
-msgstr ""
+msgstr "அட்டைதாரரின் முதல் பெயர்"
 
 #: pretix_qpaypro/formfields/payment.py:70
 #: pretix_qpaypro/formfields/payment.py:79
 msgid "Exactly as appears in the card."
-msgstr ""
+msgstr "அட்டையில் தோன்றும்."
 
 #: pretix_qpaypro/formfields/payment.py:76
 msgid "Cardholder's Last Name"
-msgstr ""
+msgstr "அட்டைதாரரின் கடைசி பெயர்"
 
 #: pretix_qpaypro/formfields/settings.py:12
 msgid "QPayPro: Login"
-msgstr ""
+msgstr "Qpaypro: உள்நுழைவு"
 
 #: pretix_qpaypro/formfields/settings.py:15
 msgid "Also referred to as \"Public Key\"."
-msgstr ""
+msgstr "\"பொது விசை\" என்றும் குறிப்பிடப்படுகிறது."
 
 #: pretix_qpaypro/formfields/settings.py:16
 msgid "Click here to access the API information."
-msgstr ""
+msgstr "பநிஇ தகவலை அணுக இங்கே சொடுக்கு செய்க."
 
 #: pretix_qpaypro/formfields/settings.py:26
 msgid "QPayPro: Private Key"
-msgstr ""
+msgstr "Qpaypro: தனியார் விசை"
 
 #: pretix_qpaypro/formfields/settings.py:30
 msgid "Also referred to as \"API Key\"."
-msgstr ""
+msgstr "\"பநிஇ விசை\" என்றும் குறிப்பிடப்படுகிறது."
 
 #: pretix_qpaypro/formfields/settings.py:38
 msgid "QPayPro: API Secret"
-msgstr ""
+msgstr "Qpaypro: பநிஇ மறைபொருள்"
 
 #: pretix_qpaypro/formfields/settings.py:49
 msgid "QPayPro: Endpoint"
-msgstr ""
+msgstr "Qpaypro: இறுதிப்புள்ளி"
 
 #: pretix_qpaypro/formfields/settings.py:53
 msgid "Sandbox"
-msgstr ""
+msgstr "சாண்ட்பாக்ச்"
 
 #: pretix_qpaypro/formfields/settings.py:54
 msgid "Live"
-msgstr ""
+msgstr "வாழ"
 
 #: pretix_qpaypro/formfields/settings.py:63
 msgid "QPayPro: Org ID"
-msgstr ""
+msgstr "Qpaypro: org ஐடி"
 
 #: pretix_qpaypro/formfields/settings.py:68
 msgid "Required to generate client device fingerprint."
-msgstr ""
+msgstr "கிளையன்ட் சாதன கைரேகையை உருவாக்க வேண்டும்."
 
 #: pretix_qpaypro/formfields/settings.py:69
 msgid "Click here to access the associated documentation."
-msgstr ""
+msgstr "தொடர்புடைய ஆவணங்களை அணுக இங்கே சொடுக்கு செய்க."
 
 #: pretix_qpaypro/formfields/settings.py:79
 msgid "QPayPro: Default Country"
-msgstr ""
+msgstr "Qpaypro: இயல்புநிலை நாடு"
 
 #: pretix_qpaypro/formfields/settings.py:88
 msgid "QPayPro: Default State"
-msgstr ""
+msgstr "Qpaypro: இயல்புநிலை நிலை"
 
 #: pretix_qpaypro/formfields/settings.py:97
 msgid "QPayPro: Default City"
-msgstr ""
+msgstr "Qpaypro: இயல்புநிலை நகரம்"
 
 #: pretix_qpaypro/formfields/settings.py:106
 msgid "QPayPro: Default Zip Code"
-msgstr ""
+msgstr "QPAYPRO: இயல்புநிலை ZIP குறியீடு"
 
 #: pretix_qpaypro/formfields/settings.py:115
 msgid "QPayPro: Default Address"
-msgstr ""
+msgstr "Qpaypro: இயல்புநிலை முகவரி"
 
 #: pretix_qpaypro/payment.py:28
 msgid "QPayPro"
-msgstr ""
+msgstr "Qpaypro"
 
 #: pretix_qpaypro/payment.py:59 pretix_qpaypro/payment.py:318
 msgid "Credit card"
-msgstr ""
+msgstr "கடனட்டை"
 
 #: pretix_qpaypro/payment.py:64 pretix_qpaypro/payment.py:324
 msgid "Monthly payments"
-msgstr ""
+msgstr "மாதாந்திர கொடுப்பனவுகள்"
 
 #: pretix_qpaypro/payment.py:309
 msgid ""
 "We had trouble communicating with QPayPro. Please try again and get in touch "
 "with us if this problem persists."
 msgstr ""
+"Qpaypro உடன் தொடர்புகொள்வதில் எங்களுக்கு சிக்கல் இருந்தது. இந்த சிக்கல் தொடர்ந்தால் "
+"தயவுசெய்து மீண்டும் முயற்சி செய்து எங்களுடன் தொடர்பு கொள்ளுங்கள்."
 
 #: pretix_qpaypro/payment.py:317
 msgid "Credit card via QPayPro"
-msgstr ""
+msgstr "Qpaypro வழியாக கடன் அட்டை"
 
 #: pretix_qpaypro/payment.py:323
 msgid "Monthly payments via QPayPro"
-msgstr ""
+msgstr "Qpaypro வழியாக மாதாந்திர கொடுப்பனவுகள்"
 
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:5
 msgid "Payment Method"
-msgstr ""
+msgstr "கட்டண முறை"
 
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:17
 msgid "Expiration"
-msgstr ""
+msgstr "காலாவதி"
 
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_confirm.html:21
 msgid "Cardholder\\'s Name"
-msgstr ""
+msgstr "அட்டைதாரரின் பெயர்"
 
 #: pretix_qpaypro/templates/pretix_qpaypro/checkout_payment_form.html:7
 msgid ""
@@ -194,25 +199,32 @@ msgid ""
 "should take no more than 10 seconds, then you'll be redirected to the "
 "confirmation page."
 msgstr ""
+"நீங்கள் <strong> தொடரவும் </strong என்பதைக் சொடுக்கு செய்த பிறகு, நீங்கள் <strong> சாதன "
+"கைரேகை </strong> ஐ உருவாக்கும் மற்றொரு பக்கத்திற்கு திருப்பி விடப்படுவீர்கள், இது ஒரு "
+"மோசடி பகுப்பாய்வு கருவியாகும், இது நீங்கள் செல்லுபடியாகும் வாடிக்கையாளர் என்பதை "
+"உறுதிப்படுத்த எங்களுக்கு உதவுகிறது . இது 10 வினாடிகளுக்கு மேல் ஆகக்கூடாது, பின்னர் "
+"நீங்கள் உறுதிப்படுத்தல் பக்கத்திற்கு திருப்பி விடப்படுவீர்கள்."
 
 #: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:30
 msgid "Device Fingerprint"
-msgstr ""
+msgstr "சாதன கைரேகை"
 
 #: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:32
 msgid ""
 "We're generating a device fingerprint, this is a fraud analysis tool that "
 "help us to confirm you're a valid customer."
 msgstr ""
+"நாங்கள் ஒரு சாதன கைரேகையை உருவாக்குகிறோம், இது ஒரு மோசடி பகுப்பாய்வு கருவியாகும், "
+"இது நீங்கள் சரியான வாடிக்கையாளர் என்பதை உறுதிப்படுத்த எங்களுக்கு உதவுகிறது."
 
 #: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:33
 msgid "This page should be automatically closed after 10 seconds."
-msgstr ""
+msgstr "இந்த பக்கம் 10 விநாடிகளுக்குப் பிறகு தானாக மூடப்பட வேண்டும்."
 
 #: pretix_qpaypro/templates/pretix_qpaypro/onlinemetrix.html:34
 msgid "If not, click here"
-msgstr ""
+msgstr "இல்லையென்றால், இங்கே சொடுக்கு செய்க"
 
 #: pretix_qpaypro/views.py:19
 msgid "Invalid parameters"
-msgstr ""
+msgstr "தவறான அளவுருக்கள்"
